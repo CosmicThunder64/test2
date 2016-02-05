@@ -19,20 +19,24 @@
                       </block>
                     </value>
                     <next>
-                      <block type="oled_drawtext" id="139">
-                        <field name="TEXT">Hi Madhumita</field>
+                      <block type="movement_stop" id="161">
                         <next>
-                          <block type="oled_setcursor" id="148" inline="true">
-                            <value name="STARTX">
-                              <block type="math_number" id="149">
-                                <field name="NUM">10</field>
+                          <block type="oled_drawtext" id="139">
+                            <field name="TEXT">Hi Madhumita</field>
+                            <next>
+                              <block type="oled_setcursor" id="148" inline="true">
+                                <value name="STARTX">
+                                  <block type="math_number" id="149">
+                                    <field name="NUM">10</field>
+                                  </block>
+                                </value>
+                                <value name="STARTY">
+                                  <block type="math_number" id="150">
+                                    <field name="NUM">20</field>
+                                  </block>
+                                </value>
                               </block>
-                            </value>
-                            <value name="STARTY">
-                              <block type="math_number" id="150">
-                                <field name="NUM">20</field>
-                              </block>
-                            </value>
+                            </next>
                           </block>
                         </next>
                       </block>
