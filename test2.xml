@@ -22,7 +22,7 @@
                       <block type="movement_stop" id="161">
                         <next>
                           <block type="oled_drawtext" id="139">
-                            <field name="TEXT">Hi Madhumita</field>
+                            <field name="TEXT">hey jade 9 group</field>
                             <next>
                               <block type="oled_setcursor" id="148" inline="true">
                                 <value name="STARTX">
